@@ -14,15 +14,22 @@
   </head>
   <body>
     <header>
-      <ul>
-        <li>About</li>
-        <li>Store</li>
-        <li>Gmail</li>
-        <li>Images</li>
-      </ul>
+      <div id="wrapper">
+        <ul>
+          <div class="left">
+            <li>About</li>
+            <li>Store</li>
+          </div>
+          <div class="right">
+            <li>Gmail</li>
+            <li>Images</li>
+            <li><button id="sign-in">Sign In</button></li>
+          </div>
+        </ul>
+      </div>
     </header>
     <main>
-      <div>
+      <div class="center">
         <img src="./img/google.jpg" alt="google text image" />
         <input type="text" />
         <button>Google Search</button>
@@ -30,9 +37,6 @@
       </div>
     </main>
     <footer>
-      <div>
-        <p>United Kingdom</p>
-      </div>
       <div>
         <ul>
           <li>Advertising</li>

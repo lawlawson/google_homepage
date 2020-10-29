@@ -11,6 +11,7 @@
 
 body {
   font-family: 'Raleway', sans-serif;
+  font-size: 14px;
 }
 
 /* Lists for links */
@@ -100,6 +101,7 @@ li {
   border-radius: 5px;
   border: 1px solid #dfe1e5;
   outline: none;
+  margin-left: 10px;
 }
 
 .buttons:hover {
@@ -109,4 +111,15 @@ li {
 .search-buttons {
   text-align: center;
   margin-top: 30px;
+}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #e4e4e4;
+  padding: 10px;
+  font-size: 14px;
 }

@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+/* Reset */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
+/* Main styling */
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -25,8 +28,9 @@ li {
 
 /* Nav Links */
 
-#wrapper {
-  margin-top: 20px;
+#navbar {
+  margin-top: 25px;
+  overflow: hidden;
 }
 
 .left {
@@ -41,7 +45,6 @@ li {
 
 /* Sign-In Button */
 
-/* Image */
 #sign-in {
   background-color: #4285f4;
   color: #fff;
@@ -51,4 +54,18 @@ li {
 .center {
   display: block;
   margin: auto;
+}
+
+/* Image and Search */
+
+.search {
+  margin-top: 100px;
+}
+.center-img {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%;
+  height: 100%; */
 }
